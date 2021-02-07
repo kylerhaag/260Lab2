@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>KLEEN.com</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .content {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        #handguns {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        #rifles {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        #knives {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        #apparel {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .displayItems {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px;
+            border: 5px solid whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="header">
+
+            <div class="header_title">
+                <a href="./index.html">KLEEN</a>
+
+            </div>
+
+            <nav class="header_nav">
+                <a href="./handgun.html">Handguns </a>
+                <a href="./rifle.html">Rifles</a>
+                <a href="./knive.html">Knives</a>
+                <a href="./apparel.html">Apparel</a>
+            </nav>
+
+        </header>
+
+        <div class="content">
+            <div id="rifles">
+                <div class="displayItems">
+                    <img alt="Rifle"
+                        src="https://hkusa.s3.amazonaws.com/20201211225655/MR556A1-Left-2021-2-360x180.jpg">
+                    Rifle 1
+                </div>
+                <div class="displayItems">
+                    <img alt="Rifle"
+                        src="https://hkusa.s3.amazonaws.com/20201211225655/MR556A1-Left-2021-2-360x180.jpg">
+                    Rifle 2
+                </div>
+                <div class="displayItems">
+                    <img alt="Rifle"
+                        src="https://hkusa.s3.amazonaws.com/20201211225655/MR556A1-Left-2021-2-360x180.jpg">
+                    Rifle 3
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="footer">
+            <ul>
+                <li>(801) 899-8688</li>
+                <li><span style="font-style: oblique;">kleen</span>info@kleen.com</li>
+                <li>888 Center Street</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -2,64 +2,82 @@
 <html lang="en">
 
 <head>
-  <title>KLEEN.com</title>
+  <title>KLEEN Guns</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <style>
-    .content {
-      display: flex;
-      flex-direction: column;
-    }
 
-    .homeimage {
-      display: flex;
-      justify-content: center;
-    }
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 
-    .homeimage img {
-      justify-content: center;
-      max-width: 80%;
-    }
-  </style>
 </head>
 
 <body>
-  <div class="container">
+  <header class="header">
 
-    <header class="header">
-
-      <div class="header_title">
-        <a href="./index.html">KLEEN</a>
-      </div>
-
-      <nav class="header_nav">
-        <a href="./handgun.html">Handguns </a>
-        <a href="./rifle.html">Rifles</a>
-        <a href="./knive.html">Knives</a>
-        <a href="./apparel.html">Apparal</a>
-      </nav>
-
-    </header>
-
-    <div class="content">
-
-      <a class="homeimage" href="./purchase.html">
-        <img src="homePagePic.jpeg" alt="AR-15;">
-      </a>
-
-      <button>Shop Now</button>
+    <div class="header_title">
+      <a href="./index.html">KLEEN</a>
     </div>
 
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/"><img src="/images/logo.png" alt="Logo Here"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./handgun.html">Handguns</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./rifle.html">Rifles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./knive.html">Knives</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./apparel.html">Apparel</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <div class="container1">
+
+    <div class="container-content">
+
+      <a href="./purchase.html"> <img src="/images/homePagePic.jpeg" alt="AR-15;"> </a>
+
+      <button><a href="./handgun.html">Shop Now </a></button>
+
+    </div>
 
     <div class="footer">
-      <ul>
-        <li>(801) 899-8688</li>
-        <li><span style="font-style: oblique;">kleen</span>info@kleen.com</li>
-        <li>888 Center Street</li>
-      </ul>
+
+      <div>Website designed by Kyler Haag</div>
+      Check out Kyler's code on
+      <a href="https://github.com/kylerhaag/260Lab2.git">GitHub</a>
     </div>
+
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

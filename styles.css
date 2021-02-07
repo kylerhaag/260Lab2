@@ -1,24 +1,29 @@
 * {
     margin: 0;
     padding: 0;
-  }
+}
 
-  html{
+html {
     height: 100%
-  }
+}
 
-  .navbar-brand img{
-    width: 100px;
+.bg-dark {
+    color: rgb(243, 172, 228) !important;
+}
+
+.navbar-brand img {
+    width: 250px;
     height: auto;
-  }
+}
 
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
     color: #666;
-  }
-  
-  .navbar-dark .navbar-nav .nav-link {
+}
+
+.navbar-dark .navbar-nav .nav-link {
     color: #fff;
-  }
+}
 
 table {
     border-collapse: collapse;
@@ -28,14 +33,15 @@ table {
 body {
     min-height: 100%;
     background-image: url("./images/background.jpg");
+    background-color: #666;
+    background-size: 100%;
 }
-
 
 .header {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: rgb(236, 236, 236);
+    background-color: rgba(134, 134, 134, 0.952);
 }
 
 .header_title a {
@@ -47,10 +53,11 @@ body {
     font-size: 60px;
 }
 
-.container1{
+.container1 {
     margin: 0;
     width: 100%;
 }
+
 .container-content {
     display: flex;
     justify-content: center;
@@ -61,38 +68,78 @@ body {
     height: 100%;
 }
 
-.container-content button{
+.container-content button {
     display: flex;
     justify-content: center;
     margin: 1%;
     width: 35%;
     font-size: 20px;
-    background-color: rgb(110, 7, 7);
+    /* background-color: rgb(110, 7, 7); */
+    background-color: rgb(65, 65, 65);
 }
 
 .container-content button a {
     text-decoration: none;
-    color: white;
-    /* background-color: red; */
+    color: #fff5a5;
 }
 
 img {
     width: 100%;
-  }
+}
 
-
-.footer{
+.footer {
     left: 0;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
-    background-color: lightgray;
+    color: #fff5a5;
+    background-color: #343a40;
     padding: 0.5%;
     border-top: 3px solid #5D6063;
     height: 60px;
-
 }
-.footer a{
-    text-decoration: underline !important;
-    color: black;
 
+.homepar {
+    padding: 1% 3% 0.5% 3%;
+    background-color: rgba(158, 158, 158, 0.952);
+}
+
+.footer a {
+    text-decoration: underline !important;
+    color: #fff5a5;
+}
+
+#handguns {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#knives {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#rifles {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#apparel {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.displayItems {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid whitesmoke;
 }

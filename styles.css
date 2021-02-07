@@ -92,8 +92,7 @@ img {
 
 }
 .footer a{
-    text-decoration: none !important;
+    text-decoration: underline !important;
     color: black;
-    
 
 }
